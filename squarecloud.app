@@ -1,5 +1,5 @@
 {
-  "Main": "start.js",
+  "Main": "index.html",
   "Name": "fire-skins-cs2",
   "Version": "1.0.0",
   "Description": "Fire Skins CS2 Website",
@@ -7,4 +7,5 @@
   "Memory": 512,
   "StartCommand": "node start.js",
   "AutoRestart": true
+
 }
