@@ -1,0 +1,100 @@
+header{
+    background: linear-gradient(90deg, rgb(222, 56, 0) 0%, rgb(37, 37, 37) 25%);
+
+    display: flex;
+    justify-content: right;
+    height: 105px;
+    align-items: center;
+    box-shadow: 0px 0px 50px 5px rgb(255, 78, 34);
+
+    img{
+        height: 54px;
+        border-radius: 100%;
+        margin-right: 24px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: flex;
+            align-items: center;
+            
+
+            img{
+            height: 20px;
+            margin: 8px;
+            }
+        }
+    }
+}
+
+.index-body{
+    margin: 0%;
+    background-image: url("/imagens/Banner\ De\ Fogo.gif");
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.contato-body{
+    margin: 0%;
+    background-image: url("/imagens/Fire\ Skins\ Contatos.png");
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 100%; }
+
+    .feedbacks-body{
+    margin: 0%;
+    background-image: url("/imagens/Fire\ Skins\ Feedbacks.png");
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 100%;  }
+
+    .parceria-body{
+    margin: 0%;
+    background-image: url("/imagens/Fire\ Skins\ Parceiros.png");
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 100%;   }
+
+footer{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+
+.header2 {
+    background-color: rgb(37, 37, 37);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);}
+
+    .grid-parcerias {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        width: 80%;
+        margin: 20px 0;
+        padding: 20px;
+        
+    }

@@ -1,0 +1,12 @@
+{
+  "name": "fire-skins-cs2",
+  "version": "1.0.0",
+  "description": "Fire Skins CS2 Website",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
